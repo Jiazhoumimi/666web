@@ -1,0 +1,13 @@
+n11501910.ifn666.com {
+
+  handle_path /assessment02/* {
+    reverse_proxy localhost:5000
+  }
+
+  handle {
+    root * /home/ubuntu/666/client/dist
+    try_files {path} /index.html
+    file_server
+  }
+}
+

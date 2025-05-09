@@ -1,0 +1,362 @@
+{
+  "v": 7,
+  "name": "666 REST API",
+  "folders": [],
+  "requests": [
+    {
+      "v": "12",
+      "name": "GET PRODUCT",
+      "method": "GET",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/products",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "LOGIN",
+      "method": "POST",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/auth/login",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\"email\":\"Cecilia123456@gmail.com\",\"password\":\"\"}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "PING🥁",
+      "method": "GET",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/auth/ping",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "REGISTER",
+      "method": "POST",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/auth/register",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"name\": \"Carl\",\n  \"email\": \"carl@example.com\",\n  \"password\": \"mypassword123\"\n}\n"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "REGISTER2",
+      "method": "POST",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/auth/register",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"name\": \"AliceWong\",\n  \"email\": \"alice@example.com\",\n  \"password\": \"password123\"\n}\n"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "LOGIN2",
+      "method": "POST",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/auth/login",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"email\": \"alice@example.com\",\n  \"password\": \"password123\"\n}\n"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "POST Product",
+      "method": "POST",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/products",
+      "params": [],
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODE0ZWVkN2I3OTM1YzkzMWQ4ZTVhOTQiLCJlbWFpbCI6ImFsaWNlQGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzMxNzY2LCJleHAiOjE3NDYzMzUzNjZ9.OhUQqJQgQ9448zz8QnJL8x8EWPY65K7kK7idb-n6UMA",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"name\": \"Fast Power Bank\",\n  \"price\": 49,\n  \"category\": \"Home Appliances\"\n}\n"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "GET Product ID",
+      "method": "GET",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/products/68083a67bd3d64b1697921f2",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "UPDATE Product",
+      "method": "PUT",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/products/68083a67bd3d64b1697921f2",
+      "params": [],
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODE0ZWVkN2I3OTM1YzkzMWQ4ZTVhOTQiLCJlbWFpbCI6ImFsaWNlQGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzMxNzY2LCJleHAiOjE3NDYzMzUzNjZ9.OhUQqJQgQ9448zz8QnJL8x8EWPY65K7kK7idb-n6UMA",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"name\": \"Smart Air Fryer Plus\",\n  \"price\": 169,\n  \"category\": \"Home Appliances\"\n}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "DELETE Product",
+      "method": "DELETE",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/products/68083a67bd3d64b1697921f2",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "CREATE Order",
+      "method": "POST",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/orders",
+      "params": [],
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODE0ZWVkN2I3OTM1YzkzMWQ4ZTVhOTQiLCJlbWFpbCI6ImFsaWNlQGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzM1NTcwLCJleHAiOjE3NDYzMzkxNzB9.Fh5InwJ3DgdxlMln3kfkgrngYomuSA8sJaU-__dSpXM",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"user\": \"6814eed7b7935c931d8e5a94\",\n  \"products\": [\n    {\n      \"product\": \"68083b0cbd3d64b1697921f4\",\n      \"quantity\": 1\n    },\n    {\n      \"product\": \"68083beebd3d64b169792202\",\n      \"quantity\": 2\n    },\n    {\n      \"product\": \"6810eb982f5b9676d765d0fc\",\n      \"quantity\": 1\n    }\n  ],\n  \"total\": 1854\n}\n"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "CREATE Order2",
+      "method": "POST",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/orders",
+      "params": [],
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODE0ZWVkN2I3OTM1YzkzMWQ4ZTVhOTQiLCJlbWFpbCI6ImFsaWNlQGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzM1NTcwLCJleHAiOjE3NDYzMzkxNzB9.Fh5InwJ3DgdxlMln3kfkgrngYomuSA8sJaU-__dSpXM",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"user\": \"6814eed7b7935c931d8e5a94\",\n  \"products\": [\n    {\n      \"product\": \"68083b4fbd3d64b1697921f6\",  // Winter Jacket\n      \"quantity\": 1\n    },\n    {\n      \"product\": \"6810eb982f5b9676d765d0fb\",  // Luxury Sofa\n      \"quantity\": 1\n    }\n  ],\n  \"total\": 919\n}\n"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "GET ORDER",
+      "method": "GET",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/orders",
+      "params": [],
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODE0ZWVkN2I3OTM1YzkzMWQ4ZTVhOTQiLCJlbWFpbCI6ImFsaWNlQGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzM1NTcwLCJleHAiOjE3NDYzMzkxNzB9.Fh5InwJ3DgdxlMln3kfkgrngYomuSA8sJaU-__dSpXM",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "EDIT Orders",
+      "method": "PUT",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/orders/6816f9816ab8fd6061a6dff6",
+      "params": [],
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODE0ZWVkN2I3OTM1YzkzMWQ4ZTVhOTQiLCJlbWFpbCI6ImFsaWNlQGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzM1NTcwLCJleHAiOjE3NDYzMzkxNzB9.Fh5InwJ3DgdxlMln3kfkgrngYomuSA8sJaU-__dSpXM",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"products\": [\n    {\n      \"product\": \"6810eb982f5b9676d765d0fb\",\n      \"quantity\": 1\n    },\n    {\n      \"product\": \"68083b4fbd3d64b1697921f6\",\n      \"quantity\": 2\n    }\n  ],\n  \"total\": 1039,\n  \"status\": \"paid\"\n}\n"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "12",
+      "name": "DELETE ORDER",
+      "method": "DELETE",
+      "endpoint": "https://n11501910.ifn666.com/assessment02/orders/6816f9816ab8fd6061a6dff6",
+      "params": [],
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODE0ZWVkN2I3OTM1YzkzMWQ4ZTVhOTQiLCJlbWFpbCI6ImFsaWNlQGV4YW1wbGUuY29tIiwiaWF0IjoxNzQ2MzM1NTcwLCJleHAiOjE3NDYzMzkxNzB9.Fh5InwJ3DgdxlMln3kfkgrngYomuSA8sJaU-__dSpXM",
+          "active": true,
+          "description": ""
+        }
+      ],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    }
+  ],
+  "auth": {
+    "authActive": true,
+    "authType": "none"
+  },
+  "headers": [],
+  "_ref_id": "coll_ma5ieo38_aec8ff42-7c70-47cf-aec8-16a410ebe5b5"
+}
